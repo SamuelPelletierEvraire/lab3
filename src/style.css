@@ -1,0 +1,14 @@
+.chart-bar-label {
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-fill: black;
+}
+
+.chart-bar {
+    -fx-bar-fill: #2cbf53; /* Couleur des barres */
+}
+
+.chart-bar:hover {
+    -fx-transition: -fx-bar-fill 0.5s, -fx-effect 0.5s; /* Transition de couleur et d'effet */
+    -fx-bar-fill: rgba(44, 191, 83, 0.8); /* Couleur des barres au survol */
+}
